@@ -57,12 +57,11 @@ void led_init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
- //HAL_GPIO_WritePin(LED15_GPIO_Port,LED15_Pin, GPIO_PIN_SET);
-//static uint16_t tx_data=69, rx_data=0;
-//static uint16_t *tx_p=&tx_data, *rx_p=&rx_data;
 
- uint32_t tx_data=89, rx_data=0;
- uint32_t *tx_p=&tx_data, *rx_p=&rx_data;
+// Ganesh Sharma  -- DMA memory to Memory Transfer STM32
+
+ static uint16_t tx_data=65, rx_data=0;
+ static uint16_t *tx_p=&tx_data, *rx_p=&rx_data;
 
 /* USER CODE END 0 */
 
